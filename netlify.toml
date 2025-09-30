@@ -1,0 +1,9 @@
+[build]
+  # Este comando pode ser deixado em branco se você não tiver um passo de build para o frontend
+  command = ""
+  # O diretório onde seu site (index.html) está
+  publish = "/"
+
+[functions]
+  # Dizendo explicitamente ao Netlify onde encontrar as funções
+  directory = "netlify/functions/"
